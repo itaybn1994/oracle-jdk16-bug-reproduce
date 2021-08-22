@@ -3,7 +3,7 @@
 This repository reproduce jdk 16.0.2 bug with std::stringstream.
 When I used std::stringstream's operator<< with integer as value, nothing added to the string.
 
-================================================================================================
+=========================================================================================
 how to reproduce the bug:
 
 1. set JAVA_HOME to java16.
